@@ -1,34 +1,44 @@
 {
+  "network": {
+    "name": "aerospike-cluster-net",
+    "subnet": "172.18.100.0/24",
+    "gateway": "172.18.100.1"
+  },
   "nodes": {
     "aero1": {
-      "ip": "172.17.10.11",
-      "memory": "512M",
-      "image": "",
-      "data_dir": ""
+      "ip": "172.18.100.10",
+      "memory": "2048M",
+      "image": "aerospike",
+      "config_dir": "config/aero1",
+      "data_dir": "data/aero1"
     },
     "aero2": {
-      "ip": "172.17.10.12",
-      "memory": "512M",
-      "image": "",
-      "data_dir": ""
+      "ip": "172.18.100.11",
+      "memory": "2048M",
+      "image": "aerospike",
+      "config_dir": "config/aero2",
+      "data_dir": "data/aero2"
     },
     "aero3": {
-      "ip": "172.17.10.13",
-      "memory": "512M",
-      "image": "",
-      "data_dir": ""
+      "ip": "172.18.100.12",
+      "memory": "2048M",
+      "image": "aerospike",
+      "config_dir": "config/aero3",
+      "data_dir": "data/aero3"
     },
     "aero4": {
-      "ip": "172.17.10.14",
-      "memory": "512M",
-      "image": "",
-      "data_dir": ""
+      "ip": "172.18.100.13",
+      "memory": "2048M",
+      "image": "aerospike",
+      "config_dir": "config/aero4",
+      "data_dir": "data/aero4"
     },
     "aero5": {
-      "ip": "172.17.10.15",
-      "memory": "512M",
-      "image": "",
-      "data_dir": ""
+      "ip": "172.18.100.14",
+      "memory": "2048M",
+      "image": "aerospike",
+      "config_dir": "config/aero5",
+      "data_dir": "data/aero5"
     }
   }
 }
